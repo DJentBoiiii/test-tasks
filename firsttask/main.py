@@ -1,17 +1,4 @@
-import numpy as np
 import helper as hp
-
-# # Коефіцієнти при невідомих в лівій частині рівнянь
-# a = np.array([[1, 2, 3], 
-#               [0, 1, 2], 
-#               [2, 0, 0]])
-
-# # Значення в правій частині рівнянь
-# b = np.array([[1], [1], [0]])
-# # Розв'язок системи рівнянь
-# x = np.linalg.solve(a, b)
-
-# print(x.transpose())
 
 a = hp.create()
 
